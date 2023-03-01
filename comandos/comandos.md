@@ -147,6 +147,16 @@ docker run -d -p 27017:27017 mongo
 ## MySQL
 
 * docker run -e MYSQL_ROOT_PASSWORD=secret -d -p 3306:3306 mysql:5.7
+* connect in terminal:
+```bash
+mysql -u=USERNAME -p DATABASENAME 
+```
+-u: username
+-p: password (**no space between -p and the password text**)
+-h: host
+last one is name of the database that you wanted to connect.
+
+mysql -u=dbuser -p db 
 
 ## Actualizar wordpress en Base de datos
 
