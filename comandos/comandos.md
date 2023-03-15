@@ -57,6 +57,9 @@ docker exec -i -t 7e80656e001b /bin/bash
 docker system prune --volumes
 docker run -d -p 8004:80 170287751818.dkr.ecr.sa-east-1.amazonaws.com/portinos.blog
 
+## En Mac con M1
+a veces hay que incluir esto: platform: linux/x86_64 en docker compose
+
 ---
 
 
